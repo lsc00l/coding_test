@@ -2,7 +2,7 @@
 ### 🔺문제
 [📃프로그래머스 - 정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
 
-동적계획법(Dynamic Programming) 카테고리의 level3 문제다. 
+동적계획법(Dynamic Programming) 카테고리의 level 3 문제다. 
 
 ### 🔺동적프로그래밍
 처음엔 동적프로그래밍이 뭔지 공부도 안하고 모든 경우의 수를 재귀로 풀려고 했다.
