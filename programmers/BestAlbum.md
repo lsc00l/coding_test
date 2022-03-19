@@ -23,7 +23,7 @@ Genre클래스는
 장르별 총재생수를 누적할 수 있는 total 변수와
 앨범의 고유번호를 담는 albumList 리스트로 구성했다.
 
-아래와 같은 Map 구조로 문제를 풀었다.
+아래와 같은 Map 구조로 문제를 풀었다.<br/>
 ![](https://images.velog.io/images/co_ol/post/2ead7132-e398-4b72-a477-b4a5cdaf3235/image.png)
 
 
@@ -58,7 +58,7 @@ Map의 value값을 List<Genre>로 변환 후
 베스트앨범 두개or한개를 poll해주면 답이 나온다.
 <br/>
 ![](https://images.velog.io/images/co_ol/post/07fcb58f-7ffa-4369-9ab6-c3d8446bddbf/image.png)
-<br/>답!!<br/>
+<br/><br/>답!!<br/>
 ![](https://images.velog.io/images/co_ol/post/38c4cf42-b691-45fb-b5db-72a11711de60/image.png)
   <br/><br/>
 
