@@ -40,7 +40,7 @@ plays  : [500, 600, 150, 800, 2500]
 <br/>
 
 #### 1. 입력 데이터를 Map에 넣는다.
-→ 데이터가 장르별로 구분된다.
+→ 데이터가 장르별로 구분된다.<br/>
 ![](https://images.velog.io/images/co_ol/post/d75d88cd-b47a-428d-9eba-db5285fb8029/image.png)
 
 
@@ -49,13 +49,16 @@ plays  : [500, 600, 150, 800, 2500]
 Map의 value값을 List<Genre>로 변환 후 
 장르별 총재생수로 List를 정렬한다.
 ~~사실 List로 변환하지 않고 Map 그대로 정렬하려고 했는데,  Map 정렬하는 코드가 좀 더러워서 간단하게 List로 변환하여 정렬하였다.~~
+<br/>
 ![](https://images.velog.io/images/co_ol/post/b9ee1dde-8977-419a-aa9e-5a935414578e/image.png)
 
 #### 3. 마지막, 장르별로 베스트 앨범 두개를 선정
 앨범별 재생수를 비교하기 위해 우선순위큐(PriorityQueue)에
 고유번호와 재생수를 put해준 후 
 베스트앨범 두개or한개를 poll해주면 답이 나온다.
-![](https://images.velog.io/images/co_ol/post/07fcb58f-7ffa-4369-9ab6-c3d8446bddbf/image.png)답!!
+<br/>
+![](https://images.velog.io/images/co_ol/post/07fcb58f-7ffa-4369-9ab6-c3d8446bddbf/image.png)
+<br/>답!!<br/>
 ![](https://images.velog.io/images/co_ol/post/38c4cf42-b691-45fb-b5db-72a11711de60/image.png)
   <br/><br/>
 
