@@ -1,6 +1,3 @@
-[코딩테스트 연습 - 주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
-
-### 코드
 # 주차 요금 계산
 
 ## 문제 
