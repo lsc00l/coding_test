@@ -1,7 +1,7 @@
 ## 베스트앨범
 
 ### 💿📀 문제
-[📃프로그래머스 - 베스트앨범] (https://programmers.co.kr/learn/courses/30/lessons/42579)
+[📃프로그래머스 - 베스트앨범] (https://programmers_md.co.kr/learn/courses/30/lessons/42579)
 
 해시 카테고리, level 3
 
