@@ -1,5 +1,4 @@
 # coding_test
-<hr>
 코딩테스트 문제 풀이
 
 ### [LeetCode-75 코드](https://github.com/lsc00l/coding_test/tree/master/src/LeetCode75)
