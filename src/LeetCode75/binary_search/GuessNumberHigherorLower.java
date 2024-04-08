@@ -2,7 +2,7 @@ package LeetCode75.binary_search;
 
 public class GuessNumberHigherorLower {
     public static void main(String[] args) {
-        System.out.println(guessNumber(10));
+        System.out.println(guessNumber(2));
     }
     static int guessNumber(int n) {
         int left = 1;
@@ -10,13 +10,13 @@ public class GuessNumberHigherorLower {
         int pick;
 
         while(true){
-            pick = left + (right - left)/2;
+            pick = (int) (left + (right - left)/2);
             if(guess(pick)==0)
                 break;
             else if (guess(pick)>0) {
-                left = pick;
+                left = pick+1;
             }else {
-                right = pick;
+                right = pick-1;
             }
         }
 
@@ -25,8 +25,8 @@ public class GuessNumberHigherorLower {
 
     static public int guess(int n){
 
-        if(n==6) return 0;
-        else if(n > 6) return -1;
+        if(n==2) return 0;
+        else if(n > 2) return -1;
         else {
             return 1;
         }
