@@ -2,18 +2,6 @@ package LeetCode75.binarytree_dfs;
 
 public class GoodNodes {
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
     public static void main(String[] args) {
         GoodNodes m = new GoodNodes();
         System.out.println(m.goodNodes( new TreeNode(3, new TreeNode(1, new TreeNode(3), null), new TreeNode(4, new TreeNode(1), new TreeNode(5))) ));

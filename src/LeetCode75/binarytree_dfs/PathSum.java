@@ -5,19 +5,6 @@ import java.util.stream.Collectors;
 
 public class PathSum {
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     public static void main(String[] args) {
 //3,3,1
         PathSum p = new PathSum();

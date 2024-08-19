@@ -6,18 +6,6 @@ import java.util.Stack;
 
 public class MaxDepth {
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
     public static void main(String[] args) {
         MaxDepth m = new MaxDepth();
 //        System.out.println(m.maxDepth(new TreeNode(1, new TreeNode(2),null)));
